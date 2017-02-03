@@ -4,7 +4,6 @@ import android.view.View;
 import android.widget.Button;
 
 import com.lenovohit.hospital_utopia.R;
-import com.lenovohit.hospital_utopia.ui.two.LX_CapitalAndCityActivity;
 import com.mg.core.base.BaseActivity;
 import com.mg.core.net.ThreadMessage;
 

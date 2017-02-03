@@ -18,4 +18,11 @@ public class InterfaceSendService {
 		result.setUrl(result.getUrl());
 		return  result;
 	}
+
+	public static HttpEntity i_SearchDisease(ThreadMessage threadMessage) {
+		HttpEntity result = new HttpEntity(threadMessage);
+		result.addParam("ID", threadMessage.getListString().get(0));
+		result.setUrl(result.getUrl());
+		return result;
+	}
 }

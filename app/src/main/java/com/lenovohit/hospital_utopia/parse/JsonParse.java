@@ -1,6 +1,7 @@
 package com.lenovohit.hospital_utopia.parse;
 
 import com.lenovohit.hospital_utopia.domain.CapitalAndCity;
+import com.lenovohit.hospital_utopia.domain.CommonObj;
 import com.mg.core.base.BaseParse;
 
 import org.json.JSONException;
@@ -46,5 +47,9 @@ public class JsonParse extends BaseParse {
 
 	public static List<CapitalAndCity> parserCapitalAndCitys(String content) {
 		return getJsonList(getJsonString(content), CapitalAndCity.class);
+	}
+
+	public static List<CommonObj> parseCommList(String content) {
+		return getJsonList(getJsonString(content), CommonObj.class);
 	}
 }

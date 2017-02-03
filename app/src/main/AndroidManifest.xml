@@ -35,7 +35,7 @@
             android:screenOrientation="portrait"></activity>
 
         <activity
-            android:name="com.lenovohit.hospital_utopia.ui.two.LX_CapitalAndCityActivity"
+            android:name="com.lenovohit.hospital_utopia.ui.one.LX_CapitalAndCityActivity"
             android:configChanges="orientation|keyboardHidden"
             android:launchMode="singleTask"
             android:screenOrientation="portrait"></activity>
@@ -60,6 +60,12 @@
 
         <activity
             android:name="com.lenovohit.hospital_utopia.ui.four.MainFourActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="com.lenovohit.hospital_utopia.ui.two.LX_DiseaseListActivity"
             android:configChanges="orientation|keyboardHidden"
             android:launchMode="singleTask"
             android:screenOrientation="portrait"></activity>

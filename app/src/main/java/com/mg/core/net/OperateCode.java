@@ -13,7 +13,8 @@ import com.lenovohit.hospital_utopia.utils.ViewUtil;
 public enum OperateCode {
 
 	i_getCapitalAndCity(R.string.i_getCapitalAndCity),
-	i_getUpdateURL(R.string.i_getUpdateURL);
+	i_getUpdateURL(R.string.i_getUpdateURL),
+	i_SearchDisease(R.string.i_SearchDisease);
 
 	private final int interfaceResId;
 

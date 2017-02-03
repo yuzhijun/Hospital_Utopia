@@ -4,6 +4,7 @@
 <!--     <string name="i_base_http_real">https://121.40.76.147/eHealthServices/</string> -->
     <string name="i_getCapitalAndCity">NeweHealthServices/api/Hospital/AllCity</string>
     <string name="i_getUpdateURL"></string>
+    <string name="i_SearchDisease">NeweHealthServices/api/HealthKnowledge/SearchMedicine</string>
 
     <!-- 上传图片 -->
     <string name="i_setMessage">NeweHealthServices/api/User/UploadPhoto</string>
