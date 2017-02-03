@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <com.mg.core.view.TopBar
+        android:id="@+id/tbTop"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="45dip" />
+
+    <LinearLayout
+        android:id="@+id/content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/tbBottom"
+        android:layout_below="@id/tbTop"
+        android:orientation="vertical" />
+
+    <com.mg.core.view.BottomBar
+        android:id="@id/tbBottom"
+        android:layout_width="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone"
+        android:layout_height="50dip" />
+
+</RelativeLayout>

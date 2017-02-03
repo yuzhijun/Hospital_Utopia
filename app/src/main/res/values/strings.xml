@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Hospital_Utopia</string>
+
+    <!-- 发送错误时重新加载次数 -->
+    <string name="config_welcomeActivityPath">.ui.LX_WelcomeActivity</string>
+    <string name="config_mainActivityPath">.ui.MainActivity</string>
+    <string name="config_InterfaceUitlsPath">.utils.InterfaceUitls</string>
+    <string name="config_reloadCount">3</string>
+    <!-- 是否开启IOC -->
+    <string name="config_isstartIOC">false</string>
+    <!-- 是否是测试 -->
+    <string name="config_isdebug">true</string>
+
+    <!-- 错误参数 -->
+    <string name="error_unknownerror">当前网络不畅通！</string>
+    <string name="error_servernotexist">服务器无响应！</string>
+    <string name="error_netwokerror">网络连接不可用！</string>
+    <string name="error_sqliteerror">本地数据库错误！</string>
+    <string name="error_xmlerror">Xml错误！</string>
+    <string name="error_AlertDialog">通讯失败,请检查网络!</string>
+
+    <!-- 应用提示 -->
+
+    <string name="ProgressDialog_string">\u2026努力加载中\u2026</string>
+    <string name="Login_string">正在登陆\u2026</string>
+    <string name="Submit_string">正在提交\u2026</string>
+    <string name="soft_update_title">软件更新</string>
+    <string name="soft_update_info">检测到新版本，立即更新吗</string>
+    <string name="soft_update_updatebtn">马上更新</string>
+    <string name="soft_update_later">暂不更新</string>
+    <string name="soft_updating">正在更新</string>
+    <string name="soft_update_cancel">取消</string>
+    <string name="foot_get_moreing">加载中\u2026</string>
+    <string name="ReLogin_Message">登陆超时,请重新登陆!</string>
+
+    <!-- 上拉下拉ListView定义 -->
+    <string name="pull_to_refresh_footer_release_label">松开后加载</string>
+    <string name="pull_to_refresh_footer_pull_label">上拉加载更多</string>
+    <string name="pull_to_refresh_footer_refreshing_label">加载中\u2026</string>
+    <string name="pull_to_refresh_pull_label">下拉刷新</string>
+    <string name="pull_to_refresh_release_label">松开后刷新</string>
+    <string name="pull_to_refresh_refreshing_label">加载中\u2026</string>
+    <string name="tool_weight">过\t\t低：小于18.5\n正\t\t常：18.5~23.9\n超 \t\t重：24.0~27.9\n肥 \t\t胖：大于28</string>
+</resources>

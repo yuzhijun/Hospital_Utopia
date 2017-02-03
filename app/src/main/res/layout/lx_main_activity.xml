@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <ViewFlipper
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/app_bj_colors"
+        android:layout_above="@+id/mBottombar" />
+
+    <com.mg.core.view.BottomBar
+        android:id="@+id/mBottombar"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_height="45dip"/>
+
+</RelativeLayout>
